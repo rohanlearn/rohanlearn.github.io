@@ -1,127 +1,48 @@
-
 body{
-  font-size: 18px;
-  
- 
-  background: linear-gradient(to right, #c33764, #1d2671); 
-  
-  width:100%;
-  height:100vh;
-  margin:0;
-  margin-bottom: 10%;
-}
-h1,p{
-  margin:1em auto;
-  text-align:center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-}
-h1{
-  font-size: 30px;
-}
-form{
-  width: 90%;
-
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px; 
-  max-width: 540px;
-
+    align-items: center;
+    display: grid;
+    place-items: center;
+    
 }
 .container{
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
   
-  width: 50%;
-  transform: perspective(500px) rotateY(-1deg);
-  background-color: aliceblue;
-  opacity:0.8;
-  
-  
-  margin-left: auto;
-  margin-right: auto;
- 
-  padding: 20px;
-  
-  max-width: 600px;
-  
-}
-label{
-  display:block;
-  margin: 1.3rem 0;
+    margin-top: 5%;
+    width: 20cm;
+    align-items: center;
+    
 
-}
-.radio{
-  margin: -0.3rem 0;
+    background-color: rgb(236, 233, 227);
+    border: 4px solid rgb(2, 9, 10);
+    font-size: large;
+    
   
 }
-input,
-textarea,
-select {
-  margin: 3px 0 0 0;
-  width: 100%;
-  min-height: 2.3em;
-}
-.lulli{
-  width: 1rem;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-  
-  
+body{
+    background-color: rgb(236, 233, 227);
 }
 
-#bruh{
-  text-align:left;
-  margin-bottom:5px;
-  font-size: unset;
+#labeln{
+    margin-right: 29%;
+}
+#labele{
+    margin-right: 29%;
+}
+#labelp{
+    margin-right: 29%;
 }
 
-#submit{
-  width:60%;
-  display:grid;
-  place-items:center;
-  text-align:center;
-  color:white;
-  min-height: 2.3em;
-  background-color:black;
-  cursor:pointer;
-
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  
-  border-color: white;
-  
-  
-
-}
-/* Modal styles */
-.modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgba(0,0,0,0.5); 
-}
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; 
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; 
-}
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-.close:hover,
-.close:focus {
-  color: black;
+.button{
+    border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
+  background-color: black;
+}
+.button:hover{
+    background-color: rgb(59, 58, 58);
 }
